@@ -10,7 +10,7 @@
 
 .rectangle{
   border:3px solid black;
-  height:857px;
+  height:860px;
   width: 790px;
   text-align:center;
   background-color: #F0E4E494 58%;
@@ -38,4 +38,23 @@ a{
 hr{
   border-top: 2px solid black;
   border-bottom:2px solid black;
+}
+
+#discord, #google, #twitter{
+  height:65px;
+  width:85px;
+}
+
+#google, #twitter {
+  border-radius:50%;
+}
+
+#discord, #google {
+  margin-right:30px;
+}
+
+.socials-container{
+  display:flex;
+  justify-content: center;
+  
 }
