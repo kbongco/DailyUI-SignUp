@@ -1,5 +1,4 @@
 * {
-  background-image: url("https://i.ibb.co/wJkYfqh/ac-new-horizons-leaf-pattern-v3-1280x1024-1.jpg");
   font-family: 'Audiowide', cursive;
   color: #508270;
 }
@@ -8,12 +7,17 @@
   justify-content:center;
 }
 
+body{
+  background-image: url("https://i.ibb.co/wJkYfqh/ac-new-horizons-leaf-pattern-v3-1280x1024-1.jpg");
+}
+
 .rectangle{
+  margin-top:63px;
   border:3px solid black;
   height:860px;
   width: 790px;
   text-align:center;
-  background-color: #F0E4E494 58%;
+  background-color: rgba(240, 228, 228, 0.58);
 }
 
 .register {
@@ -28,7 +32,19 @@
 input {
   width:464px;
   height:61px;
+  color:black;
+}
 
+input[type='text'], input[type='password']{
+  font-size:26px;
+}
+
+p{
+  font-size:16px;
+}
+button {
+  color:black;
+  font-size:36px;
 }
 
 a{
@@ -58,3 +74,10 @@ hr{
   justify-content: center;
   
 }
+
+.signup{
+  margin-top:5px;
+}
+
+
+
