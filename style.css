@@ -1,0 +1,41 @@
+* {
+  background-image: url("https://i.ibb.co/wJkYfqh/ac-new-horizons-leaf-pattern-v3-1280x1024-1.jpg");
+  font-family: 'Audiowide', cursive;
+  color: #508270;
+}
+.container{
+  display:flex;
+  justify-content:center;
+}
+
+.rectangle{
+  border:3px solid black;
+  height:857px;
+  width: 790px;
+  text-align:center;
+  background-color: #F0E4E494 58%;
+}
+
+.register {
+  border-radius:30px;
+  background-color: #508270;
+  width:269px;
+  height:66px;
+  margin-top:25px;
+}
+
+
+input {
+  width:464px;
+  height:61px;
+
+}
+
+a{
+  color:blue;
+}
+
+hr{
+  border-top: 2px solid black;
+  border-bottom:2px solid black;
+}
